@@ -1,0 +1,173 @@
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: nav;
+    border: 1px solid #4D4D4D;
+    background: #282C31;
+
+    &__menu-btn {
+        position: relative;
+        display: none;
+        width: 357px;
+        height: 61px;
+        background: #282C31;
+        cursor: pointer;
+    }
+    
+    &__menu-lines,
+    &__menu-lines::before,
+    &__menu-lines::after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 2px;
+        background: #48555B;
+    }
+    
+    &__menu-lines {
+        top: 18px;
+        left: 10px;
+    }
+    
+    &__menu-lines::before {
+        top: 12px;
+    }
+    
+    &__menu-lines::after {
+        top: 24px;
+    }
+
+    .logo {
+        width: 42px;
+        height: 24px;
+        margin-top: 53px;
+    }
+
+    .menu {
+        margin-bottom: 40px;
+    }
+
+    .menu-home::before {
+        content: '';
+        position: absolute;
+        top: 190px;
+        left: -1px;
+        width: 5px;
+        height: 50px;
+        border-radius: 0 4px 4px 0;
+        z-index: -1;
+        transition: all 0.4s;
+    }
+
+    .menu-home:hover::before {
+        width: 100%;
+        background: #7F7FD5;
+    }
+
+    .menu-news::before {
+        content: '';
+        position: absolute;
+        top: 260px;
+        left: -1px;
+        width: 5px;
+        height: 50px;
+        border-radius: 0 4px 4px 0;
+        z-index: -1;
+        transition: all 0.4s;
+    }
+
+    .menu-news:hover::before {
+        width: 100%;
+        background: #7F7FD5;
+    }
+
+    .menu-friends::before {
+        content: '';
+        position: absolute;
+        top: 328px;
+        left: -1px;
+        width: 5px;
+        height: 50px;
+        border-radius: 0 4px 4px 0;
+        z-index: -1;
+        transition: all 0.4s;
+    }
+
+    .menu-friends:hover::before {
+        width: 100%;
+        background: #7F7FD5;
+    }
+
+    .menu-mail::before {
+        content: '';
+        position: absolute;
+        top: 394px;
+        left: -1px;
+        width: 5px;
+        height: 50px;
+        border-radius: 0 4px 4px 0;
+        z-index: -1;
+        transition: all 0.4s;
+    }
+
+    .menu-mail:hover::before {
+        width: 100%;
+        background: #7F7FD5;
+    }
+
+    .menu-media::before {
+        content: '';
+        position: absolute;
+        top: 460px;
+        left: -1px;
+        width: 5px;
+        height: 50px;
+        border-radius: 0 4px 4px 0;
+        z-index: -1;
+        transition: all 0.4s;
+    }
+
+    .menu-media:hover::before {
+        width: 100%;
+        background: #7F7FD5;
+    }
+
+    .menu-statistics::before {
+        content: '';
+        position: absolute;
+        top: 530px;
+        left: -1px;
+        width: 5px;
+        height: 50px;
+        border-radius: 0 4px 4px 0;
+        z-index: -1;
+        transition: all 0.4s;
+    }
+
+    .menu-statistics:hover::before {
+        width: 100%;
+        background: #7F7FD5;
+    }
+
+    .menu-settings::before {
+        content: '';
+        position: absolute;
+        top: 600px;
+        left: -1px;
+        width: 5px;
+        height: 50px;
+        border-radius: 0 4px 4px 0;
+        z-index: -1;
+        transition: all 0.4s;
+    }
+
+    .menu-settings:hover::before {
+        width: 100%;
+        background: #7F7FD5;
+    }
+}

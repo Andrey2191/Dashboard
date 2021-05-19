@@ -1,0 +1,51 @@
+.graphics {
+    padding: 27px 63px 22px 4px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    grid-area: graphics;
+    background: #282C31;
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    &__header {
+        margin-left: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .graphics__header-title {
+            font-family: Gilroy;
+            font-weight: bold;
+            font-size: 20px;
+            color: #CACACA;
+        }
+
+        .header__calendar {
+            display: flex;
+            align-items: center;
+
+            .header__calendar-data {
+                margin-right: 32px;
+                font-family: Gilroy;
+                font-weight: 500;
+                font-size: 13px;
+                color: #CACACA;
+            }
+
+            .graphics__checkbox {
+                width: 135px;
+                height: 16px;
+            }
+        }
+    }
+    .graphic {
+        width: 700px;
+        height: 141px;
+    }
+}
+
+.graphics::-webkit-scrollbar {
+    width: 0;
+  }

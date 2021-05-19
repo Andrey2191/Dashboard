@@ -1,0 +1,128 @@
+.card {
+    padding: 24px;
+    font-family: Gilroy;
+    background: #282C31;
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+    border-radius: 13px;
+}
+
+.card-friends {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: card-friends;
+
+    .friends {
+        
+        display: flex;
+        justify-content: space-between;
+
+        &__title {
+            font-weight: bold;
+            font-size: 20px;
+            color: #CACACA;
+        }
+    }
+
+    .friends_statistic {
+        display: flex;
+        justify-content: space-between;
+
+        .people {
+            font-weight: 500;
+            font-size: 20px;
+            color: #CACACA;
+        }
+
+        .percent {
+            font-weight: 500;
+            font-size: 20px;
+            color: #979797;
+        }
+
+        .arrow-up {
+            color: #7F7FD5;
+        }
+    }
+}
+
+.card-visitors {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: card-visitors;
+
+    .visitors {
+        
+        display: flex;
+        justify-content: space-between;
+
+        &__title {
+            font-weight: bold;
+            font-size: 20px;
+            color: #CACACA;
+        }
+    }
+    
+    .visitors_statistic {
+        display: flex;
+        justify-content: space-between;
+
+        .people {
+            font-weight: 500;
+            font-size: 20px;
+            color: #CACACA;
+        }
+
+        .percent {
+            font-weight: 500;
+            font-size: 20px;
+            color: #979797;
+        }
+
+        .arrow-down {
+            color: #E786D7;
+        }
+    }
+} 
+
+.card-followers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: card-followers;
+
+    .followers {
+        
+        display: flex;
+        justify-content: space-between;
+
+        &__title {
+            font-weight: bold;
+            font-size: 20px;
+            color: #CACACA;
+        }
+    }
+    
+    .followers_statistic {
+        display: flex;
+        justify-content: space-between;
+
+        .people {
+            font-weight: 500;
+            font-size: 20px;
+            color: #CACACA;
+        }
+
+        .percent {
+            font-weight: 500;
+            font-size: 20px;
+            color: #979797;
+        }
+
+        .arrow-up {
+            color: #7F7FD5;
+        }
+    }
+}

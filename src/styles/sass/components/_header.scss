@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    grid-area: header;
+    font-family: Gilroy;
+    background-color: #212427;
+
+    &__header {
+        display: flex;
+        align-items: center;
+
+        .header__title {
+            margin-right: 45px;
+            font-weight: bold;
+            font-size: 30px;
+            color: #CACACA;
+        }
+
+        .header__input {
+            width: 153px;
+            height: 32px;
+            border: 1px solid #4C4C4C;
+            box-sizing: border-box;
+            border-radius: 8px;
+            background: transparent;
+        }
+
+        .header__cowbell {
+            margin-left: 24px;
+        }
+    }
+
+    &__body {
+        display: flex;
+        align-items: center;
+
+        .header__body-name {
+            font-weight: 600;
+            font-size: 20px;
+            color: #CACACA;
+        }
+
+        .header__body-avatar {
+            margin: 10px;
+        }
+
+        .header__body-menu {
+            font-size: 14px;
+            text-decoration: none;
+            color: #CACACA;
+
+        }
+    }
+
+    
+
+
+}
+
+
+

@@ -1,0 +1,18 @@
+.app {
+    max-width: 1280px;
+    min-height: 880px;
+    margin: 0 auto;
+    background-color: #212427;
+
+    display: grid;
+    grid-template-rows: 110px 148px 242px 242px;
+    grid-template-columns: 98px repeat(3, 349px);
+    grid-template-areas: 
+        'nav header header header'
+        'nav card-friends card-visitors card-followers'
+        'nav graphics graphics diagramm'
+        'nav gistogramm gistogramm geo';
+        
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+}

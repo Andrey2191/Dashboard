@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+    .app {
+        padding: 0px 0px 15px 0px;
+        grid-template-rows: 60px 70px repeat(4, 120px) repeat(4, 242px);
+        grid-template-columns: 300px;
+        grid-template-areas:
+        "nav nav nav"
+        "header header header"
+        "card-friends card-friends card-friends"
+        "card-visitors card-visitors card-visitors"
+        "card-followers card-followers card-followers"
+        "graphics graphics graphics"
+        "diagramm diagramm diagramm"
+        "gistogramm gistogramm gistogramm"
+        "geo geo geo";
+    }
+
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .geo {
+        padding: 12px;
+    }
+
+    .geo__statistics {
+        width: 342px;
+        height: 115px;
+    }
+
+    .diagramm {
+        padding: 9px;
+    }
+
+    .nav__menu {
+        display: none;
+    }
+
+    .nav__logo {
+        display: none;
+    }
+
+    .nav__checkbox {
+        display: none;
+    }
+
+    .nav__menu-btn {
+        display:block;
+        
+    }
+}
+
+
+@media (max-width: 568px) {
+    .app {
+        padding: 0px 0px 15px 0px;
+        grid-template-rows: 60px 60px repeat(3, 148px) repeat(4, 200px);
+        grid-template-columns: 1fr;
+    }
+
+    
+}

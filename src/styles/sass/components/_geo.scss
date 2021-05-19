@@ -1,0 +1,43 @@
+.geo {
+    padding: 25px;
+    font-family: Gilroy;
+    background: #282C31;
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+    border-radius: 13px;
+    grid-area: geo;
+    
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .geo__header-title {
+            font-weight: bold;
+            font-size: 20px;
+            color: #CACACA;
+        }
+
+        .geo__header-region {
+            display: flex;
+
+            .geo__header-country {
+                margin-right: 10px;
+                font-weight: 600;
+                font-size: 12px;
+                color: #CACACA;
+            }
+
+            .geo__heaeder-city {
+                font-weight: 500;
+                font-size: 12px;
+                color: #979797;
+            }
+        }
+    }
+
+    &__statistics {
+        width: 300px;
+    }
+}
